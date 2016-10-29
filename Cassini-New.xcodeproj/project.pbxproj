@@ -7,17 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C14E68821DC5212500844F44 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14E68811DC5212500844F44 /* ImageViewController.swift */; };
+		C14E68841DC5255E00844F44 /* DemoUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14E68831DC5255E00844F44 /* DemoUrl.swift */; };
+		C14E68861DC52BAE00844F44 /* CassiniViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14E68851DC52BAE00844F44 /* CassiniViewController.swift */; };
 		C1A87ADE1DC51DF900FF1179 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A87ADD1DC51DF900FF1179 /* AppDelegate.swift */; };
-		C1A87AE01DC51DF900FF1179 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A87ADF1DC51DF900FF1179 /* ViewController.swift */; };
 		C1A87AE31DC51DF900FF1179 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1A87AE11DC51DF900FF1179 /* Main.storyboard */; };
 		C1A87AE51DC51DF900FF1179 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1A87AE41DC51DF900FF1179 /* Assets.xcassets */; };
 		C1A87AE81DC51DF900FF1179 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1A87AE61DC51DF900FF1179 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C14E68811DC5212500844F44 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageViewController.swift; path = ../ImageViewController.swift; sourceTree = "<group>"; };
+		C14E68831DC5255E00844F44 /* DemoUrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoUrl.swift; sourceTree = "<group>"; };
+		C14E68851DC52BAE00844F44 /* CassiniViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CassiniViewController.swift; sourceTree = "<group>"; };
 		C1A87ADA1DC51DF900FF1179 /* Cassini-New.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cassini-New.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1A87ADD1DC51DF900FF1179 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C1A87ADF1DC51DF900FF1179 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C1A87AE21DC51DF900FF1179 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C1A87AE41DC51DF900FF1179 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1A87AE71DC51DF900FF1179 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,6 +39,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C14E68801DC520CF00844F44 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				C1A87ADD1DC51DF900FF1179 /* AppDelegate.swift */,
+				C1A87AE41DC51DF900FF1179 /* Assets.xcassets */,
+				C1A87AE61DC51DF900FF1179 /* LaunchScreen.storyboard */,
+			);
+			name = "Supporting files";
+			sourceTree = "<group>";
+		};
 		C1A87AD11DC51DF900FF1179 = {
 			isa = PBXGroup;
 			children = (
@@ -54,12 +68,12 @@
 		C1A87ADC1DC51DF900FF1179 /* Cassini-New */ = {
 			isa = PBXGroup;
 			children = (
-				C1A87ADD1DC51DF900FF1179 /* AppDelegate.swift */,
-				C1A87ADF1DC51DF900FF1179 /* ViewController.swift */,
+				C14E68811DC5212500844F44 /* ImageViewController.swift */,
 				C1A87AE11DC51DF900FF1179 /* Main.storyboard */,
-				C1A87AE41DC51DF900FF1179 /* Assets.xcassets */,
-				C1A87AE61DC51DF900FF1179 /* LaunchScreen.storyboard */,
+				C14E68851DC52BAE00844F44 /* CassiniViewController.swift */,
 				C1A87AE91DC51DF900FF1179 /* Info.plist */,
+				C14E68801DC520CF00844F44 /* Supporting files */,
+				C14E68831DC5255E00844F44 /* DemoUrl.swift */,
 			);
 			path = "Cassini-New";
 			sourceTree = "<group>";
@@ -96,6 +110,7 @@
 				TargetAttributes = {
 					C1A87AD91DC51DF900FF1179 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = MCM3XM2622;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -136,8 +151,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1A87AE01DC51DF900FF1179 /* ViewController.swift in Sources */,
+				C14E68821DC5212500844F44 /* ImageViewController.swift in Sources */,
+				C14E68841DC5255E00844F44 /* DemoUrl.swift in Sources */,
 				C1A87ADE1DC51DF900FF1179 /* AppDelegate.swift in Sources */,
+				C14E68861DC52BAE00844F44 /* CassiniViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,11 +275,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = MCM3XM2622;
 				INFOPLIST_FILE = "Cassini-New/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Orest.Cassini-New";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -270,11 +290,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = MCM3XM2622;
 				INFOPLIST_FILE = "Cassini-New/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Orest.Cassini-New";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -297,6 +320,7 @@
 				C1A87AEE1DC51DF900FF1179 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
